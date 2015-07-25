@@ -50,7 +50,22 @@ body{
 	border:1px solid white;
 }
 
-
+/* Movil */
+@media (max-width: 480px) {
+  	#maincontent h1{
+		font-size: 2em;
+		padding-top: 100px;
+	}
+	#maincontent h2{
+	font-size: 1em;
+	}
+	#mail{
+	font-size: 1rem;
+	}
+	#sociales a:before{
+	font-size: .7rem;
+	}
+}
 
 .selectedText {
   background: #f00;
