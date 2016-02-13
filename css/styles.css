@@ -1,0 +1,91 @@
+body {
+  background: #f76f20;
+  background: -webkit-gradient(left top, right top, color-stop(0%, #f76f20), color-stop(100%, #feb645));
+  background: linear-gradient(to right, #f76f20 0%, #feb645 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f76f20', endColorstr='#feb645', GradientType=1 ); }
+  body img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    position: absolute;
+    margin-top: -60px;
+    left: 50%;
+    margin-left: -60px; }
+  body #main-content {
+    position: relative;
+    background: white;
+    max-width: 580px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 120px;
+    padding: 10px 20px 40px 20px;
+    position: relative;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px; }
+    body #main-content #main-info {
+      margin-top: 80px;
+      text-align: center; }
+      body #main-content #main-info h1, body #main-content #main-info h2 {
+        font-family: "Fira Sans", sans-serif; }
+      body #main-content #main-info h1 {
+        letter-spacing: 2px;
+        font-weight: 700;
+        color: #333;
+        font-size: 20px; }
+      body #main-content #main-info h2 {
+        font-size: 16px;
+        color: #666;
+        line-height: 1px; }
+      body #main-content #main-info p {
+        margin-top: 30px;
+        color: #DF611A;
+        font-family: "Fira Sans", sans-serif; }
+    body #main-content #aplitudes {
+      margin-top: 35px;
+      text-align: center;
+      font-weight: 300; }
+      body #main-content #aplitudes h3 {
+        font-family: "Fira Sans", sans-serif;
+        line-height: 1px;
+        color: #666666;
+        font-weight: 300; }
+      body #main-content #aplitudes p {
+        font-size: .9em;
+        font-family: "Fira Sans", sans-serif;
+        color: #AAAAAA; }
+    body #main-content #important {
+      margin-top: 40px;
+      text-align: center; }
+      body #main-content #important .item {
+        margin-bottom: 30px; }
+        body #main-content #important .item h3 {
+          font-family: "Fira Sans", sans-serif;
+          font-size: .8em;
+          color: #666666;
+          line-height: 1px; }
+        body #main-content #important .item p {
+          font-family: "Fira Sans", sans-serif;
+          font-size: .8em;
+          color: #666666; }
+    body #main-content #net {
+      text-align: center; }
+      body #main-content #net a {
+        text-decoration: none;
+        color: white;
+        font-size: 1.3em;
+        margin: 8px; }
+      body #main-content #net a:before {
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        background: #727E83;
+        padding: 10px; }
+
+@media (max-width: 380px) {
+  body #main-content {
+    margin-top: 70px; }
+    body #main-content #net a {
+      margin: 1px; } }
