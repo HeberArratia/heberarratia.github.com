@@ -1,3 +1,18 @@
+#btn-portafolio{
+  background: #F76B1D;
+  width: 280px;
+  margin: 0 auto;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #fff;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-family: "Fira Sans", sans-serif; 
+}
+
 body {
   background: #f76f20;
   background: -webkit-gradient(left top, right top, color-stop(0%, #f76f20), color-stop(100%, #feb645));
