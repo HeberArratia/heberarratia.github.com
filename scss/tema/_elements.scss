@@ -1,0 +1,19 @@
+.element{
+	padding: 15px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	.element-title{
+		font-size: 1.1em;
+		padding-bottom: 15px;
+		text-transform: uppercase;
+		vertical-align: baseline;
+		font-weight: 600;
+		color: $alternative;
+		font-family: $lato;
+		padding-bottom: 0px;
+	}
+	.element-text{
+		font-family: $crimson;
+		font-size: 1.1em;
+	}
+}

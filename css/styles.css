@@ -1,106 +1,121 @@
-#btn-portafolio{
-  background: #F76B1D;
-  width: 280px;
-  margin: 0 auto;
-  text-align: center;
-  text-decoration: none;
-  display: block;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  color: #fff;
-  border-radius: 5px;
-  margin-top: 20px;
-  font-family: "Fira Sans", sans-serif; 
-}
-
+@import url("https://fonts.googleapis.com/css?family=Lato");
+@import url("https://fonts.googleapis.com/css?family=Crimson+Text");
 body {
-  background: #f76f20;
-  background: -webkit-gradient(left top, right top, color-stop(0%, #f76f20), color-stop(100%, #feb645));
-  background: linear-gradient(to right, #f76f20 0%, #feb645 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f76f20', endColorstr='#feb645', GradientType=1 ); }
-  body img {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    position: absolute;
-    margin-top: -60px;
-    left: 50%;
-    margin-left: -60px; }
-  body #main-content {
-    position: relative;
-    background: white;
-    max-width: 580px;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 120px;
-    padding: 10px 20px 40px 20px;
-    position: relative;
-    border-radius: 4px;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px; }
-    body #main-content #main-info {
-      margin-top: 80px;
-      text-align: center; }
-      body #main-content #main-info h1, body #main-content #main-info h2 {
-        font-family: "Fira Sans", sans-serif; }
-      body #main-content #main-info h1 {
-        letter-spacing: 2px;
-        font-weight: 700;
-        color: #333;
-        font-size: 20px; }
-      body #main-content #main-info h2 {
-        font-size: 16px;
-        color: #666;
-        line-height: 1px; }
-      body #main-content #main-info p {
-        margin-top: 30px;
-        color: #DF611A;
-        font-family: "Fira Sans", sans-serif; }
-    body #main-content #aplitudes {
-      margin-top: 35px;
-      text-align: center;
-      font-weight: 300; }
-      body #main-content #aplitudes h3 {
-        font-family: "Fira Sans", sans-serif;
-        line-height: 1px;
-        color: #666666;
-        font-weight: 300; }
-      body #main-content #aplitudes p {
-        font-size: .9em;
-        font-family: "Fira Sans", sans-serif;
-        color: #AAAAAA; }
-    body #main-content #important {
-      margin-top: 40px;
-      text-align: center; }
-      body #main-content #important .item {
-        margin-bottom: 30px; }
-        body #main-content #important .item h3 {
-          font-family: "Fira Sans", sans-serif;
-          font-size: .8em;
-          color: #666666;
-          line-height: 1px; }
-        body #main-content #important .item p {
-          font-family: "Fira Sans", sans-serif;
-          font-size: .8em;
-          color: #666666; }
-    body #main-content #net {
-      text-align: center; }
-      body #main-content #net a {
-        text-decoration: none;
-        color: white;
-        font-size: 1.3em;
-        margin: 8px; }
-      body #main-content #net a:before {
-        border-radius: 50%;
-        -webkit-border-radius: 50%;
-        -moz-border-radius: 50%;
-        background: #727E83;
-        padding: 10px; }
+  margin: 0;
+  padding: 0; }
 
-@media (max-width: 380px) {
-  body #main-content {
-    margin-top: 70px; }
-    body #main-content #net a {
-      margin: 1px; } }
+#content-body {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto; }
+
+button, .btn.active.focus, .btn.active:focus, .btn.focus, .btn.focus:active, .btn:active:focus, .btn:focus {
+  outline: none !important;
+  outline-offset: -2px !important; }
+
+footer {
+  background: #1C222F;
+  font-family: "Lato", sans-serif;
+  padding-top: 23px;
+  padding-bottom: 23px;
+  color: #fff;
+  text-align: center; }
+
+#pre-footer {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-family: "Lato", sans-serif;
+  text-align: center; }
+  #pre-footer h5 {
+    font-family: "Lato", sans-serif;
+    font-size: 1.8em;
+    padding-bottom: 5px;
+    margin-bottom: 5px; }
+  #pre-footer p {
+    font-family: "Crimson Text", serif;
+    font-size: 1.3em;
+    margin-bottom: 5px; }
+  #pre-footer a {
+    font-size: 1.6em;
+    color: #D07193; }
+
+#main-banner {
+  padding: 15px;
+  padding-top: 80px;
+  padding-bottom: 30px; }
+  #main-banner #main-info, #main-banner #main-img {
+    float: left; }
+  #main-banner #main-info {
+    width: 50%; }
+    #main-banner #main-info h1 {
+      padding-top: 20px;
+      font-size: 2.5em;
+      font-family: "Lato", sans-serif;
+      font-weight: 900;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      vertical-align: baseline; }
+    #main-banner #main-info h4 {
+      font-family: "Lato", sans-serif;
+      font-size: 1.5em;
+      padding-top: 15px;
+      vertical-align: baseline;
+      letter-spacing: .8px;
+      line-height: 1.6;
+      font-family: "Crimson Text", serif; }
+  #main-banner #main-img {
+    width: 50%; }
+    #main-banner #main-img img {
+      width: 100%;
+      height: auto; }
+
+@media (max-width: 782px) {
+  #main-banner {
+    padding-top: 50px;
+    padding-bottom: 0px;
+    margin-bottom: 0px !important;
+    display: block;
+    margin: 0px; }
+    #main-banner #main-info {
+      float: none;
+      width: 100%;
+      display: block; }
+      #main-banner #main-info h1 {
+        padding: 0px; }
+      #main-banner #main-info h4 {
+        padding: 0px;
+        margin-top: 0px; }
+    #main-banner #main-img {
+      display: none; } }
+
+.element {
+  padding: 15px;
+  padding-top: 0px;
+  padding-bottom: 0px; }
+  .element .element-title {
+    font-size: 1.1em;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    vertical-align: baseline;
+    font-weight: 600;
+    color: #D07193;
+    font-family: "Lato", sans-serif;
+    padding-bottom: 0px; }
+  .element .element-text {
+    font-family: "Crimson Text", serif;
+    font-size: 1.1em; }
+
+#skills a {
+  font-family: "Lato", sans-serif;
+  margin-bottom: 10px;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.3); }
+
+#links a {
+  text-decoration: none;
+  padding-right: 15px; }
+  #links a span {
+    color: #868da0;
+    font-size: 2em; }
+    #links a span:hover {
+      color: #a2acc4; }

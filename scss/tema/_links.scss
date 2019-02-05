@@ -1,0 +1,13 @@
+#links{
+	a{
+		 text-decoration: none;
+		 padding-right: 15px;
+		span{
+			color: #868da0;
+			font-size: 2em;
+			&:hover{
+				color: #a2acc4;
+			}
+		}
+	}
+}
