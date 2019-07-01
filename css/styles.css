@@ -1,5 +1,8 @@
-@import url("https://fonts.googleapis.com/css?family=Lato");
-@import url("https://fonts.googleapis.com/css?family=Crimson+Text");
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans:400,700");
+@font-face {
+  src: url(../fonts/intro-font.otf);
+  font-family: intro; }
+
 body {
   margin: 0;
   padding: 0; }
@@ -14,27 +17,29 @@ button, .btn.active.focus, .btn.active:focus, .btn.focus, .btn.focus:active, .bt
   outline-offset: -2px !important; }
 
 footer {
-  background: #1C222F;
-  font-family: "Lato", sans-serif;
+  background: #000;
+  font-family: "Noto Sans", serif;
   padding-top: 23px;
   padding-bottom: 23px;
   color: #fff;
   text-align: center; }
+  footer p {
+    font-size: .9em; }
 
 #pre-footer {
   margin-top: 40px;
   margin-bottom: 40px;
-  font-family: "Lato", sans-serif;
+  font-family: "Noto Sans", serif;
   text-align: center; }
   #pre-footer h5 {
-    font-family: "Lato", sans-serif;
+    font-family: "Noto Sans", serif;
     font-size: 1.8em;
     padding-bottom: 5px;
     margin-bottom: 5px; }
   #pre-footer p {
-    font-family: "Crimson Text", serif;
+    font-family: "Noto Sans", serif;
     font-size: 1.3em;
-    margin-bottom: 5px; }
+    margin-bottom: 14px; }
   #pre-footer a {
     font-size: 1.6em;
     color: #D07193; }
@@ -42,27 +47,30 @@ footer {
 #main-banner {
   padding: 15px;
   padding-top: 80px;
-  padding-bottom: 30px; }
+  padding-bottom: 50px; }
   #main-banner #main-info, #main-banner #main-img {
     float: left; }
   #main-banner #main-info {
     width: 50%; }
     #main-banner #main-info h1 {
-      padding-top: 20px;
-      font-size: 2.5em;
-      font-family: "Lato", sans-serif;
+      padding-top: 30px;
+      font-size: 3.5em;
+      font-family: intro;
       font-weight: 900;
       letter-spacing: 3px;
       text-transform: uppercase;
-      vertical-align: baseline; }
+      vertical-align: baseline;
+      letter-spacing: 1px;
+      margin-bottom: 5px; }
     #main-banner #main-info h4 {
-      font-family: "Lato", sans-serif;
-      font-size: 1.5em;
-      padding-top: 15px;
+      font-family: "Noto Sans", serif;
+      padding-right: 20px;
+      font-size: 1.2em;
+      padding-top: 0px;
       vertical-align: baseline;
       letter-spacing: .8px;
       line-height: 1.6;
-      font-family: "Crimson Text", serif; }
+      margin-top: 10px; }
   #main-banner #main-img {
     width: 50%; }
     #main-banner #main-img img {
@@ -99,16 +107,19 @@ footer {
     vertical-align: baseline;
     font-weight: 600;
     color: #D07193;
-    font-family: "Lato", sans-serif;
+    font-family: "Noto Sans", serif;
+    font-weight: 700;
     padding-bottom: 0px; }
   .element .element-text {
-    font-family: "Crimson Text", serif;
-    font-size: 1.1em; }
+    font-family: "Noto Sans", serif;
+    margin-top: 15px;
+    font-size: .93em; }
 
 #skills a {
-  font-family: "Lato", sans-serif;
+  font-family: "Noto Sans", serif;
   margin-bottom: 10px;
   background: #fff;
+  font-size: 300;
   border: 1px solid rgba(0, 0, 0, 0.3); }
 
 #links a {
@@ -118,4 +129,34 @@ footer {
     color: #868da0;
     font-size: 2em; }
     #links a span:hover {
-      color: #a2acc4; }
+      color: black; }
+
+#whatIDo:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+#whatIDo .w-element {
+  width: 33.3%;
+  float: left;
+  margin-bottom: 15px; }
+  #whatIDo .w-element .w-element-content {
+    padding: 15px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px; }
+    #whatIDo .w-element .w-element-content h4 {
+      font-size: 1.3em;
+      font-family: "Noto Sans", serif;
+      font-weight: 300;
+      margin-top: 3px;
+      margin-bottom: 3px; }
+    #whatIDo .w-element .w-element-content p {
+      color: #646464;
+      font-family: "Noto Sans", serif;
+      margin-top: 15px;
+      font-size: .93em; }
+
+@media (max-width: 700px) {
+  #whatIDo .w-element {
+    width: 100%; } }

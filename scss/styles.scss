@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lato');
-@import url('https://fonts.googleapis.com/css?family=Crimson+Text');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,700');
 
 // Variables para aplicarlas en font-weight
   $light      : 300;
@@ -14,10 +13,8 @@
   $alternative: #D07193;
   $background-color: #1C222F;
 
-// FUENTES
-
-  $lato              : 'Lato', sans-serif;
-  $crimson           : 'Crimson Text', serif;         
+// FUENTES  
+  $noto              : 'Noto Sans', serif;     
 
 
 // Tema. Los componentes básicos de cualquier proyecto
@@ -26,7 +23,8 @@
   @import "tema/banner";
   @import "tema/elements";
   @import "tema/skills";
-    @import "tema/links";
+  @import "tema/links";
+  @import "tema/element_whatido";
 
 
 // Modulos. Los componentes que se repiten en varias partes del proyecto

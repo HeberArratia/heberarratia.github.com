@@ -1,26 +1,29 @@
 footer{
-	background: $background-color;
-	font-family: $lato;
+	background: #000;
+	font-family: $noto;
 	padding-top: 23px;
 	padding-bottom: 23px;
 	color: #fff;
 	text-align: center;
+	p{
+		font-size: .9em;
+	}
 }
 #pre-footer{
 	margin-top: 40px;
 	margin-bottom: 40px;
-	font-family: $lato;
+	font-family: $noto;
 	text-align: center;
 	h5{
-		font-family: $lato;
+		font-family: $noto;
 		font-size: 1.8em;
 		padding-bottom: 5px;
 		margin-bottom: 5px;
 	}
 	p{
-		font-family: $crimson;
+		font-family: $noto;
 		font-size: 1.3em;
-		margin-bottom: 5px;
+		margin-bottom: 14px;
 	}
 	a{
 		font-size: 1.6em;

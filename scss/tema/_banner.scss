@@ -1,29 +1,32 @@
 #main-banner{
 	padding: 15px;
 	padding-top: 80px;
-	padding-bottom: 30px;
+	padding-bottom: 50px;
 	#main-info,#main-img{
 		float: left;
 	}
 	#main-info{
 		width: 50%;
 		h1{
-			padding-top: 20px;
-			font-size: 2.5em;
-			font-family: $lato;
+			padding-top: 30px;
+			font-size: 3.5em;
+			font-family: intro;
 			font-weight: 900;
 			letter-spacing: 3px;
 			text-transform: uppercase;
 			vertical-align: baseline;
+			letter-spacing: 1px;
+			margin-bottom: 5px;
 		}
 		h4{
-			font-family: $lato;
-			font-size: 1.5em;
-			padding-top: 15px;
+			font-family: $noto;
+			padding-right: 20px;
+			font-size: 1.2em;
+			padding-top: 0px;
 			vertical-align: baseline;
 			letter-spacing: .8px;
 			line-height: 1.6;
-			font-family: $crimson;
+			margin-top: 10px;
 		}
 	}
 	#main-img{

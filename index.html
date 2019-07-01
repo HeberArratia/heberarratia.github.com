@@ -27,22 +27,24 @@
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/components/label.min.css">
+    <link rel="stylesheet" href="css/fakeloader.min.css">
     <title>Heber Arratia / Portafolio</title>
   </head>
 
   <body>
+    <div class="fakeLoader"></div>
     <div id="content-body">
   
       <header id="main-banner">
 
         <div id="main-info">
-          <h1>Heber Arratia</h1>
+          <h1>HEBER ARRATIA.</h1>
           <h4>
-            Diseñador y Desarrollador de <strong>Activos Digitales</strong>.
+           Diseñador y Desarrollador de <strong>Activos Digitales</strong>.
           </h4>
         </div>
         <div id="main-img">
-          <img src="img/undraw_onboarding_o8mv.png">
+          <img src="img/me-dev.png">
         </div>
 
       </header>
@@ -50,8 +52,50 @@
       <div id="elements">
         <div class="element">
           <h6 class="element-title">Acerca de</h6>
-          <p class="element-text">Ingeniero Informático de la Universidad de la Frontera en Temuco. He trabajado desde el 2015 como desarrollador de productos digitales de forma independiente y junto a empresas de alta proyección. Hoy me encuentro adquiriendo las aptitudes y redes que permitan la conformación de soluciones a problemas por medio de la tecnología.</p>
+          <p class="element-text">Ingeniero Informático de la Universidad de la Frontera en Temuco.
+             He trabajado desde el 2015 como desarrollador de productos digitales de forma 
+             independiente y junto a empresas de alta proyección. Hoy me encuentro 
+             adquiriendo las aptitudes que me permitan la conformación de 
+             soluciones a problemas por medio de la estratégia, y participando en el mercado
+            como un ente activo en la intersección entre el negocio y la tecnología.</p>
         </div>
+
+        <div class="element">
+          <h6 class="element-title">¿Qué hago?</h6>
+          <div id="whatIDo">
+            <div class="w-element">
+              <div class="w-element-content">
+                <h4>Análisis de Requerimientos</h4>
+                <p>Indagación, estimación de tiempo y definición de prioridades
+                  sobre los requerimientos funcionales
+                  y no funcionales encomendados, sin dejar de lado los
+                  objetivos de negocio, estableciendo así, los patrónes y teconologías 
+                  a utilizar para construir la solución.
+                </p>
+              </div>
+            </div>
+            <div class="w-element">
+              <div class="w-element-content">
+                <h4>Diseño de Interfáz de Usuario</h4>
+                <p>Construcción de interfaz enfocada en aportar valor 
+                  al usuario por medio del diseño minimalista, y la incorporación de
+                  los componentes interactivos adecuados para generar
+                  una experiencia de usuario satisfactoria.
+                </p>
+              </div>
+            </div>
+            <div class="w-element">
+              <div class="w-element-content">
+                <h4>Desarrollo Frontend y Backend</h4>
+                <p>Programación de aplicaciones orientadas a la web, siguiendo estándares y buenas
+                  prácticas dictadas por la comunidad y las herramientas en uso, desarrollando componentes
+                  para la interracción del usuario final, confección de API's y gestión de bases de datos.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div class="element">
           <h6 class="element-title">Conocimiento</h6>
           <div id="skills">
@@ -97,13 +141,6 @@
             <a class="ui image label">
               Control de versiones
             </a>
-          </div>
-        </div>
-        <div class="element">
-          <h6 class="element-title">Intereses</h6>
-          <!-- Este 2019, mi objetivo profesional es aprender sobre ventas por medio de intenet, llevando al mercado productos mínimos viables, conjunto co-->
-          <p class="element-text">Este 2019, mi objetivo es aprender sobre las tecnologías presentes en la "revolución industrial 4.0", con el fin de incentivar y facilitar la generación de productos y servicios capaces de solucionar problemas en diversos sectores, generando un portafolio de <strong>Activos Digitales</strong>.</p>
-          <div id="skills">
             <a class="ui image label">
               Negocios digitales
             </a>
@@ -125,12 +162,9 @@
             <a class="ui image label">
               Blockchain
             </a>
-            <a class="ui image label">
-              Marketing
-            </a>
           </div>
         </div>
-        </div>
+
         <div class="element">
           <h6 class="element-title">Links</h6>
           <div id="links">
@@ -156,11 +190,14 @@
         </div>
       </div>
     </footer>
-
-  
   <script
   src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
- 
-  <script src="js/scripts.js"></script>
+  <script src="js/fakeloader.min.js"></script> 
+  <script>
+      $.fakeLoader({
+        'spinner': 'spinner1',
+        'bgColor': '#000'
+      });
+   </script> 
   </body>
 </html>
